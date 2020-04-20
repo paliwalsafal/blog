@@ -22,4 +22,8 @@ def contact(request):
             contact = Contact(name=name, email=email, phone=phone, content=content)
             contact.save()
             messages.success(request, 'Your message has been sent')
-    return render(request, 'home/contact.html')       
+    return render(request, 'home/contact.html')    
+
+def search(request):
+    return render(request, 'home/search.html')
+    
