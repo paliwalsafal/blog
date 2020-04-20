@@ -19,10 +19,6 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item {% block homeactive %} {% endblock homeactive %}">
-              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-            </li>
-            
             <li class="nav-item {% block aboutactive %} {% endblock aboutactive %}">
               <a class="nav-link" href="/about">About</a>
             </li>
@@ -33,8 +29,8 @@
               <a class="nav-link" href="/blog">Blog</a>
             </li>
           </ul>  
-         <form method="get" action="/search" class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="query" id="search">
+          <form method="get" action="/search" class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="query" id="query">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>  
            <a href="/admin" role="button" target="_blank" class="btn btn-outline-success m-2 my-sm-0" >Admin Panel</a> 
