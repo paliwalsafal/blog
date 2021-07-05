@@ -1,0 +1,1 @@
+This is a basic blog made for testing.
